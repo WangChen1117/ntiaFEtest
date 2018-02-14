@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 38px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+#dashboard {
+  min-height: 500px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#map {
+  width: 60%;
+  min-height: 500px;
+  background-color: rgba(255, 0, 0, 0.5);
+  position: absolute;
+  left: 0px;
+}
+
+#metrics {
+  width: 40%;
+  min-height: 500px;
+  background-color: rgba(255, 255, 0, 0.5);
+  position: absolute;
+  right: 0px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
